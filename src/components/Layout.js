@@ -4,13 +4,15 @@ import Navbar from "./Navbar";
 
 const Layout = ({ children }) => {
   const location = useLocation();
-
-  // Check if the current location is the landing page ("/")
   const isLandingPage = location.pathname === "/";
 
   return (
     <div>
       {isLandingPage ? null : <Navbar />}
+
+      {/* Render the audio element with autoplay and loop attributes 
+      <audio src="/path/to/your/background-music.mp3" autoPlay loop /> */}
+
       <div style={{ paddingTop: isLandingPage ? 0 : "80px" }}>
         {children}
       </div>

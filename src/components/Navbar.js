@@ -57,6 +57,7 @@ const Navbar = () => {
             />
           </Link>
         </motion.li>
+        
         <motion.li
           style={{ display: "inline-block", marginRight: "10px" }}
           whileHover={{ scale: 1.1 }}
@@ -64,13 +65,7 @@ const Navbar = () => {
         >
           <Link to="/about">About Me</Link>
         </motion.li>
-        <motion.li
-          style={{ display: "inline-block", marginRight: "10px" }}
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-        >
-          <Link to="/contact">Contact</Link>
-        </motion.li>
+
         <motion.li
           style={{ display: "inline-block", marginRight: "10px" }}
           whileHover={{ scale: 1.1 }}
@@ -78,13 +73,23 @@ const Navbar = () => {
         >
           <Link to="/portfolio">My Projects</Link>
         </motion.li>
+
         <motion.li
-          style={{ display: "inline-block" }}
+          style={{ display: "inline-block", marginRight: "10px"}}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
         >
           <Link to="/blog">DevLogs</Link>
         </motion.li>
+
+        <motion.li
+          style={{ display: "inline-block"}}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
+          <Link to="/contact">Contact</Link>
+        </motion.li>
+
       </ul>
     </motion.nav>
   );
