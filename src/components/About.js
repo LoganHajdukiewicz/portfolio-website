@@ -1,3 +1,6 @@
+//about me is stylized as noon or midday. 
+
+
 import React from 'react';
 
 const About = () => {

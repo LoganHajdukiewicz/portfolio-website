@@ -1,3 +1,5 @@
+//Contact themed around midnight. The moon is the background. Cherry blossom is midground and pedals forground.
+
 import React, { useState } from 'react';
 
 const Contact = () => {
