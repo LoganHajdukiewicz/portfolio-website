@@ -5,7 +5,7 @@ import React from 'react';
 const Portfolio = () => {
   return (
     <div>
-      <h2>Portfolio</h2>
+      <h1 style={{textAlign: 'center'}}>Portfolio</h1>
     </div>
   );
 }

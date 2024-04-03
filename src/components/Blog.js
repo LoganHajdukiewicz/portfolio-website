@@ -6,7 +6,7 @@ import React from 'react';
 const Blog = () => {
   return (
     <div>
-      <h2>DevLog</h2>
+      <h1 style={{textAlign: 'center'}}>DevLog</h1>
     </div>
   );
 }

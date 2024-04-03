@@ -22,6 +22,7 @@ const Contact = () => {
   };
 
   return (
+    <div> <h1 style={{textAlign: "center"}}>Contact Me</h1>  
     <div style={{
       padding: '20px',
       border: '1px solid #ccc', 
@@ -29,7 +30,6 @@ const Contact = () => {
       maxWidth: '800px',
       margin: '50px auto 0 auto',
     }}>
-      <h2 style={{textAlign: "center"}}>Contact Me</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label><br />
@@ -71,6 +71,7 @@ const Contact = () => {
         <button type="submit" style={{ width: '100%' }}>Submit</button>
       </form>
     </div>
+  </div>
   );
 };
 
