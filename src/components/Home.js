@@ -5,7 +5,9 @@ import React from 'react';
 import About from './About';
 import Portfolio from './Portfolio';
 import Blog from './Blog';
+import Resume from './Resume';
 import Contact from './Contact';
+import Skills from './Skills';
 
 const Home = () => {
   return (
@@ -56,6 +58,8 @@ const Home = () => {
       <h2>Home</h2>
       <About />
       <Portfolio />
+      <Skills />
+      <Resume />
       <Blog />
       <Contact />
     </div>

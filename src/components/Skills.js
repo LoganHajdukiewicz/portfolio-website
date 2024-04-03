@@ -3,7 +3,7 @@ import React from 'react';
 const Skills = () => {
   return (
     <div>
-      <h2>Skills </h2>
+      <h1 style={{textAlign: 'center'}}>Skills </h1>
     </div>
   );
 }
