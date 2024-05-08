@@ -55,7 +55,6 @@ const Home = () => {
       <h2>Home</h2>
       <h2>Home</h2>
       <h2>Home</h2>
-      <h2>Home</h2>
       <About />
       <Portfolio />
       <Skills />
